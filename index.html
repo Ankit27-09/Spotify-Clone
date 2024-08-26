@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Spotify - Web Player: Music for everyone </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "icon" href = ".\image\logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="spotify.css" >
+</head>
+<body>
+  <div class = "main">
+<!-- Sidebar -->
+
+    <div class="sidebar"> 
+       <div class = "nav">
+         <div class = "logo"> <a href="\"> <i class="fa-brands fa-spotify"> </i> Spotify </a> </i> </div>
+         <div class="nav-option" style = "opacity:1;"> 
+            
+            <a href="a"> <i class="fa-solid fa-house"> </i> <span>  Home </span>  </a>
+         </div>
+         <div class="nav-option">
+          
+            <a href="a"> <i class="fa-solid fa-magnifying-glass"> </i> <span> Search </span>  </a>
+           
+         </div>
+    
+     </div>
+
+      <div class = "library nav-option">
+         <div class = "options"> <a href="lib"> <img src="./image/library_icon.png" alt="logo library"> Your Library </a>  </div>
+         <div class = "icons"> 
+            <a href="arrow"> <i class="fa-solid fa-arrow-right"> </i> </a> 
+            <a href="plus"> <i class="fa-solid fa-plus"> </i> </a>
+         </div>
+         </div>
+         <div class = "lib-boxes">
+            <div class = "box1"> 
+              <div class="box-p1"> <p> Create your first playlist </p> </div>
+              <div class="box-p2"> <p> It's easy we will help you </p> </div> 
+              <button class = "badge"> Create playlist </button>
+            </div>
+         
+            <div class = "box2">
+               <div class="box-p1"> <p>Let's find some podcast to follow </p> </div>
+               <div class="box-p2"> <p> We will keep you updated on new episodes </p> </div> 
+               <button class = "badge"> Browse podcasts </button>
+            
+            </div>
+      
+      
+      </div>
+
+
+    </div>
+    
+    <div class="main-content"> 
+     <!-- Sticky nav -->
+      <div class = "sticky-nav">
+     
+        <div class = "nav-box1">
+          <div class = "arrow"> 
+           <div class="arrow1"> <a href="arrow1"> <img src="./image/backward_icon.png" alt="back arrow"> </a> </div>
+           <div class = "arrow2 hide"> <a href="arrow2"> <img src="./image/forward_icon.png" alt="forward arrow"> </a> </div>   
+          </div>
+         <div class="premium-b
+          <button class = "badge premium hide"> Explore Premium </button>
+          <button class = "badge install"> <i class="fa-solid fa-arrow-down-long" style = "margin-right:5px;"> </i>   Install App </button>
+          </div>
+        </div>
+       <div class = "profile-container">  
+          <div class = "signup"> Sign up </div>
+          <div class = "login"> Login </div>
+       </div>
+
+       <div class = "hamBurger">
+         <div class = "line"></div>
+         <div class = "line"></div>
+         <div class = "line"></div>
+       </div>
+       
+      </div>
+      <!-- Cards  -->
+      <div class = "cards">
+         <h2> Recently played </h2> 
+         <div class="card"> 
+            <img src="./image/card1img.jpeg" alt="TOP50">
+            <p class = "card-title"> Top 50 - Global </p>
+            <p class = "card-info"> Your daily update of the most played tracks right..... </p>
+           
+
+         </div>
+
+         <div class="showall">
+            <h2> Trending now near you </h2>
+              <a href="show"> Show all </a> 
+         </div>
+
+         
+         <div class = "card1">
+            <div class = "card" id="0">
+             <img class="animal size" src = "https://miro.medium.com/v2/resize:fit:1358/1*1IvNy3AAxTY7KKhSmENQ3Q.jpeg" alt = "Pehle bhi main">
+             <p class = "card-title">Pehle bhi main </p>
+             <p class = "card-info"> Singer-Vishal Mishra </p>
+           </div>
+           
+           <div class = "card" id="1">
+              <img src = "https://i1.sndcdn.com/artworks-Xd0aEWT0TB5a7G1K-emDcqw-t500x500.jpg" alt = "Iljaam">
+              <p class = "card-title"> Iljaam </p>
+              <p class = "card-info"> Singer - Arjun Kanungo X King </p>
+            </div>
+
+            <div class = "card" id="2">
+              <img src = "./image/card2img.jpeg" alt = "Mahiye">
+              <p class = "card-title"> Mahiye Jinha Sona </p>
+              <p class = "card-info"> Singer-Darshan Raval </p>
+            </div>
+
+          <div class = "card" id="3">
+            <img src = "https://c.saavncdn.com/770/Humko-Tumse-Hindi-2023-20231122050857-500x500.jpg" alt = "Humko tumse">
+            <p class = "card-title"> Humko Tumse Pyaar </p>
+            <p class = "card-info"> Singer-Jubin Nautiyal </p>
+          </div>
+
+
+         </div> 
+        </div>
+      
+
+        <div class="showall">
+         <h2> New releases for you  </h2>
+           <a href="show"> Show all </a> 
+        </div>
+   <div class = "card2">
+      <div class = "card">
+         <img class="animal size" src = "https://miro.medium.com/v2/resize:fit:1358/1*1IvNy3AAxTY7KKhSmENQ3Q.jpeg" alt = "Pehle bhi main">
+         <p class = "card-title"> Pehle bhi main </p>
+         <p class = "card-info">  </p>
+       </div>
+       
+       <div class = "card">
+          <img class = "animal" src = https://msonglyrics.com/wp-content/uploads/2023/11/lutt-putt-gaya-lyrics.webp alt = "Iljaam">
+          <p class = "card-title"> Lutt put gaya </p>
+          <p class = "card-info"> Singer - Arijit Singh </p>
+        </div>
+
+        <div class = "card">
+          <img src ="https://images.genius.com/87aa30f00e4754c247d3c1f111bfc061.1000x1000x1.jpg" alt = "Mahiye">
+          <p class = "card-title"> Needle </p>
+          <p class = "card-info">  </p>
+        </div>
+
+      <div class = "card">
+        <img src = "https://c.saavncdn.com/770/Humko-Tumse-Hindi-2023-20231122050857-500x500.jpg" alt = "Humko tumse">
+        <p class = "card-title"> Humko Tumse Pyaar </p>
+        <p class = "card-info"> Your daily update of the most played tracks right..... </p>
+      </div>
+   </div>
+
+
+
+
+
+
+   <div class="showall">
+      <h2> More what you like </h2>
+        <a href="show"> Show all </a> 
+     </div>
+   <div class = "card3">
+   <div class = "card">
+      <img class="animal size" src = "./image/bolly.jpeg"  alt = "Mashup">
+      <p class = "card-title"> Bollywood mash </p>
+      <p class = "card-info">  Arijit Singh, Atif Aslam, Vishal Mishra... </p>
+    </div>
+    
+    <div class = "card">
+       <img class = "animal" src = "https://i.scdn.co/image/ab67706f0000000233e2450f7d505414534d77f9" alt = "Superhits">
+       <p class = "card-title">  </p>
+       <p class = "card-info"> honey Singh. Darshan Raval... </p>
+     </div>
+
+     <div class = "card">
+       <img src = "https://resources.tidal.com/images/0b9322ec/f895/432d/889d/b916bb246dcd/640x640.jpg" alt = "International villagers">
+       <p class = "card-title"> International Villagers </p>
+       <p class = "card-info">  Yo yo Honey Singh, Badshah, Raftaar  </p>
+     </div>
+
+   <div class = "card">
+     <img src = "https://c.saavncdn.com/770/Humko-Tumse-Hindi-2023-20231122050857-500x500.jpg" alt = "Humko tumse">
+     <p class = "card-title"> Humko Tumse Pyaar </p>
+     <p class = "card-info"> Your daily update of the most played tracks right..... </p>
+   </div>
+</div>
+<div class="showall">
+   <h2> Charts </h2>
+     <a href="show"> Show all </a> 
+  </div>
+<div class="card4">
+   <div class = "card">
+      <img class="animal size" src = "./image/download.jpeg"  alt = "Mashup">
+      <p class = "card-title"> Top Hits</p>
+      <p class = "card-info"> Justin Bieber, Maroon5 .... </p>
+    </div>
+    
+    <div class = "card">
+       <img class = "animal" src = "https://i.scdn.co/image/ab67706f0000000233e2450f7d505414534d77f9" alt = "Superhits">
+       <p class = "card-title">  </p>
+       <p class = "card-info"> honey Singh, Darshan Raval... </p>
+     </div>
+
+     <div class = "card">
+       <img src = "./image/AEFLGKyXzOS7TThqk8UBwFlZOJkXC9_41eHGHHGk-sE.webp" alt = "International villagers">
+       <p class = "card-title"> English Top Hits </p>
+       <p class = "card-info">  Jennifer Lopez, Salena Gomez...  </p>
+     </div>
+
+   <div class = "card">
+     <img src = "./image/ab67706f00000002319bd79eba1610f1f5fe6a4b.jpeg" alt = "Humko tumse">
+     <p class = "card-title"> Humko Tumse Pyaar </p>
+     <p class = "card-info"> Arijit Singh, kk, Sonu Nigam... </p>
+   </div>
+</div>
+
+
+
+<div class="footer"> 
+
+   <div class="line"></div>
+</div>
+</div>
+
+    
+  <!-- Music player -->
+
+   <div class="music-player">
+
+      <div class = "left-container">
+         <img src="https://i.scdn.co/image/ab67616d0000b27316168e9d75e544b005bc0a0a" class = "bottom-img" alt="Song-play">
+         <div class = "song">
+            <p class = "p1"> Co2 </p>
+            <div class="singer">
+               <p class = "p2"> Prateek Kuhad </p>
+               <div class = "icons1">
+                <a href="heart.com"><i class="fa-regular fa-heart"> </i> </a>  
+                 <a href="library.com"> <i class="fa-solid fa-radio"> </i> </a> 
+               </div>
+            </div>
+        
+         </div>
+         
+      </div>
+      <!-- Right-Container  -->
+
+      <div class = "right-container">
+       <div class = upper-sym>
+          <div class="symbols">
+             <i class="fa-solid fa-backward fa-2x previous"></i>
+             <i class="fa-solid fa-play player fa-2x"></i>
+             <i class="fa-solid fa-forward fa-2x next "></i>
+            </div>
+           
+            <div class = "time-display">  <p class = "time"></p></div>
+            <div class="volume">
+                <i class="fa-solid fa-volume-high fa-lg vol-unmute"></i>
+                
+                <input type="range" value = "50", min ="0", max = "100" id = "vol-range" ></div>
+            
+            </div>
+
+      
+            <input type = "range" value = "0", min = "0", max = "100" name = "progress" id = "progress"  step = "0.1">
+        
+
+      </div>
+   
+   </div>
+
+ 
+   
+   
+   
+   
+   
+   </div>
+
+
+
+
+    <script src = "app.js"></script>
+</body>
+</html>

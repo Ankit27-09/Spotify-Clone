@@ -1,0 +1,497 @@
+body {
+   background-color:black;
+   margin:0;
+   color:white;
+   overflow:hidden;
+   font-family:montserrat;
+}
+
+.main {
+    display:flex;
+    height:100vh;
+    padding:0.5rem;
+}
+
+.sidebar {
+    background-color:black;
+    width:340px;
+    border-radius:1rem;     /* 16px */
+    margin-right:10px;
+
+
+
+}
+
+.main-content {
+    background-color:#191919;
+    flex:1;
+    border-radius:1rem;
+    overflow:auto;
+    padding:0;
+   
+
+
+}
+
+
+a {
+    text-decoration:none;
+    color:white;
+}
+
+.logo i {
+    font-size:1.5rem;
+}
+.logo a {
+    font-size:1.2rem;
+}
+
+
+.sidebar .nav {
+    background-color:#121212;
+    border-radius:1rem;
+    display:flex;
+    flex-direction:column;
+    height:100px;
+    padding:0.5rem 0.75rem;
+    
+}
+
+.nav-option {
+    line-height:2rem;
+    opacity:0.7;
+    padding:0.5rem;
+    
+}
+
+.nav-option i {
+    font-size: 1.25rem;
+}
+
+.nav-option a {
+    font-size:1rem;
+    margin-left:1rem;
+}
+
+.nav-option:hover {
+    opacity:1;   
+}
+
+
+.line {
+  height:20px;
+  width:40px;
+  background-color: white;
+
+
+}
+
+span {
+    margin-left:10px;
+}
+
+.library {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color:#121212;
+    border-radius:1rem;
+    margin-top:0.7rem;
+    
+    
+}
+
+.options{
+    width:100%;
+    margin-left:1rem;
+}
+.options img {
+    height:1.25rem;
+    width:1.25rem;
+}
+.options a {
+    opacity:0.7;
+}
+
+.options a:hover {
+    opacity:1;
+}
+.icons{
+    display:flex;
+    font-size:1.25rem;
+}
+
+.icons i {
+    margin-right:0.7rem;
+    
+} 
+
+.icons a {
+    opacity:0.7;
+}
+
+.icons a:hover {
+    opacity:1;
+}
+
+.box1 {
+    background-color:#242424;
+    border-radius:0.7rem;
+    margin:0.5rem 0 0.5rem 0;
+    padding:1rem 1.25rem;
+    
+}
+
+.box-p1 {
+    font-size:1rem;
+    
+    font-weight:600;
+    
+    
+}
+
+.box-p2 {
+    font-size:0.75rem;
+    opacity:0.9;
+    
+}
+
+
+.badge {
+    background-color:white;
+    padding:10px 20px 10px 20px;
+    font-size:0.8rem;
+    border-radius:1rem;
+    font-weight:bolder;
+    margin-top:0.5rem;
+    border:none;
+    width:fit-content;
+}
+.badge:hover {
+    transform: scale(1.1);
+    
+}
+
+.box2 {
+    background-color:#242424;
+    border-radius:0.7rem;
+    margin:1.2rem 0 0.5rem 0;
+    padding:1rem 1.25rem;
+
+}
+
+/* Main container */
+
+
+.sticky-nav {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: #090909;
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+.arrow {
+    padding:13px;
+    /* border-radius:50%; */
+    color:white;
+    display:flex;
+    gap:0.7rem;
+    opacity:0.88;
+    
+    
+}
+
+
+
+.search-container {
+    border:2px solid blue;
+    border-radius:20px;
+    background-color:#af1a1a;
+    
+}
+
+.profile-container {
+    display:flex;
+    margin-right:2rem;
+    gap:20px;
+    /* opacity:0.8; */
+    
+}
+.login{
+    opacity: 0.8;
+}
+
+.signup {
+    opacity:0.8;
+}
+.profile-container .login:hover {
+    transform:scale(1.1);
+    opacity:1;
+}
+.profile-container .signup:hover {
+    transform:scale(1.1);
+    opacity:1;
+}
+
+.nav-box1 {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:4rem;
+    
+}
+
+.premium-box {
+    display:flex;
+    gap:20px;
+}
+
+.install {
+    color:white;
+    background-color:black;
+    
+    
+}
+.premium {
+    opacity:0.98;
+}
+/* Cards */
+
+h2 {
+    margin:1rem;
+}
+.card {
+    margin-left:3rem;
+    background-color:#121212;
+    width:13rem;
+    border-radius:1.1rem;
+    
+}
+.card:hover {
+    background-color:#242424;
+    transition: ease-in-out 0.4s;
+}
+
+
+.card img {
+    background-color:green;
+    height:11rem;
+    margin:1rem 1rem 1rem 1rem;
+    border-radius:0.6rem;
+}
+.card-title {
+    margin:0 0 0 1rem;
+    font-size:15px;
+    font-weight:bolder;
+    
+}
+
+.card-info {
+    font-size:small;
+    opacity:0.8;
+    margin:0.25rem 1.5rem 0 1rem;
+    font-weight:100;
+    
+}
+
+.card1{
+    display:flex;
+    background-color:#191919;
+    margin-left:1rem;
+    flex-wrap: wrap;
+}
+
+.animal {
+    width:11rem;
+}
+
+.showall {
+    /* background-color:green; */
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:30px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    
+}
+
+.showall {
+    font-size:small;
+    margin-right:2rem;
+    font-weight:bold;
+    
+}
+
+.showall a {
+    opacity:0.8;
+}
+.showall a:hover {
+    text-decoration: underline;
+    transition:1s;
+}
+
+.footer {
+    height:300px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+
+.line {
+    height:30%;
+    width:90%;
+    border-top:1px solid white;
+    opacity:0.6;
+}
+
+.card2 {
+    display:flex;
+}
+
+.music-player {
+    background-color:black;
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    height:80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.music-player {
+    background-color:242424;
+    width:100%;
+    border:2px solid red;
+    overflow: hidden;
+}
+
+.left-container {
+    padding: 0.25rem;
+    /* border:2px solid green; */
+    background-color: #191919;
+}
+
+.vol-unmute {
+    cursor:pointer;
+}
+
+.left-container img {
+    width:4rem;
+    object-fit: contain;
+    border-radius:20%;
+    
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid white; */
+    margin:auto;
+    text-align: center;
+    gap: 0.7rem;
+    width:80%;
+}
+
+#progress {
+    width:98%;
+    cursor:pointer;
+}
+
+
+
+.upper-sym {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volume {
+    display: flex;
+    align-items: center;
+    position:fixed;
+    right:0;
+    padding:0 10px;
+    
+}
+
+#vol-range {
+    width:90%;
+    cursor:pointer;
+}
+
+.symbols {
+
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    cursor:pointer;
+    
+} 
+
+.footer {
+    height:250px;
+
+}
+.card3 {
+    display:flex;
+}
+
+.card4 {
+    display:flex;
+}
+
+.left-container {
+    display:flex;
+    gap:1rem;
+    background-color: #000000;
+    width:20%;
+}
+
+
+
+.song {
+    line-height: 10px;
+}
+
+.song .p1 {
+    opacity:0.9;
+    
+}
+.icons1 {
+   display:flex;
+   gap:1rem;
+}
+
+.song .p2 {
+    opacity:0.7;
+    font-size:small;
+    
+}
+
+.align {
+    display:flex;
+    align-items: center;
+    gap:0.5rem;
+}
+
+
+
+
+
+
+
+
+/* Responsive Website */
+@media(max-width:1000px) {
+    .hide{
+        display:none;
+    }
+
+
+}
